@@ -1,0 +1,252 @@
+.wrapper{
+    display: grid;
+    grid-template-columns: repeat (13, 1fr);
+    grid-template-rows: auto;
+    /* grid-gap: 1%; */  
+    
+}
+
+nav ul li{
+    text-decoration: none;
+    display: inline;    
+}
+
+.item {
+    background: rgb(204, 86, 86);
+    border: 1px solid rgb(190, 115, 115);
+    padding: 15px;
+    overflow: hidden;
+    color: beige;
+    font-weight: bolder; 
+    text-align: center;   
+  }
+
+.item12{
+    grid-column-start: 1;
+    grid-column-end: 13;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+.item6{
+    grid-column-start: 1;
+    grid-column-end: 7;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
+.item6_1{
+    grid-column-start: 7;
+    grid-column-end: 13;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
+.item4{
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 3;
+    grid-row-end: 4;
+}
+
+.item4_1{
+    grid-column-start: 5;
+    grid-column-end: 9;
+    grid-row-start: 3;
+    grid-row-end: 4;
+}
+
+.item4_2{
+    grid-column-start: 9;
+    grid-column-end: 13;
+    grid-row-start: 3;
+    grid-row-end: 4;
+}
+
+.item3{
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 4;
+    grid-row-end: 5;
+}
+
+.item3_1{
+    grid-column-start: 4;
+    grid-column-end: 7;
+    grid-row-start: 4;
+    grid-row-end: 5;
+}
+
+.item3_2{
+    grid-column-start: 7;
+    grid-column-end: 10;
+    grid-row-start: 4;
+    grid-row-end: 5;
+}
+
+.item3_3{
+    grid-column-start: 10;
+    grid-column-end: 13;
+    grid-row-start: 4;
+    grid-row-end: 5;
+}
+
+.item4_8{
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 5;
+    grid-row-end: 6;
+}
+
+.item8_4{
+    grid-column-start: 5;
+    grid-column-end: 13;
+    grid-row-start: 5;
+    grid-row-end: 6;
+}
+
+.item8_8{
+    grid-column-start: 1;
+    grid-column-end: 9;
+    grid-row-start: 6;
+    grid-row-end: 7;
+}
+
+.item4_4{
+    grid-column-start: 9;
+    grid-column-end: 13;
+    grid-row-start: 6;
+    grid-row-end: 7;
+}
+
+.item2{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 7;
+    grid-row-end: 8;
+}
+
+.item2_1{
+    grid-column-start: 3;
+    grid-column-end: 5;
+    grid-row-start: 7;
+    grid-row-end: 8;
+}
+
+.item2_2{
+    grid-column-start: 5;
+    grid-column-end: 7;
+    grid-row-start: 7;
+    grid-row-end: 8;
+}
+
+.item2_3{
+    grid-column-start: 7;
+    grid-column-end: 9;
+    grid-row-start: 7;
+    grid-row-end: 8;
+}
+
+.item2_4{
+    grid-column-start: 9;
+    grid-column-end: 11;
+    grid-row-start: 7;
+    grid-row-end: 8;
+}
+
+.item2_5{
+    grid-column-start: 11;
+    grid-column-end: 13;
+    grid-row-start: 7;
+    grid-row-end: 8;
+}
+
+.item1{
+    grid-column-start: 10;
+    grid-column-end: 12;
+    grid-row-start: 8;
+    grid-row-end: 9;
+}
+
+.item1_1{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 8;
+    grid-row-end: 9;
+}
+.item1_2{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 8;
+    grid-row-end: 9;
+}
+.item1_3{
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 8;
+    grid-row-end: 9;
+}
+
+.item1_4{
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 8;
+    grid-row-end: 9;
+}
+.item1_5{
+    grid-column-start: 5;
+    grid-column-end: 6;
+    grid-row-start: 8;
+    grid-row-end: 9;
+}
+
+.item1_6{
+    grid-column-start: 6;
+    grid-column-end: 7;
+    grid-row-start: 8;
+    grid-row-end: 9;
+}
+
+.item1_7{
+    grid-column-start: 7;
+    grid-column-end: 8;
+    grid-row-start: 8;
+    grid-row-end: 9;
+}
+
+.item1_8{
+    grid-column-start: 8;
+    grid-column-end: 9;
+    grid-row-start: 8;
+    grid-row-end: 9;
+}
+
+.item1_9{
+    grid-column-start: 9;
+    grid-column-end: 10;
+    grid-row-start: 8;
+    grid-row-end: 9;
+}
+
+.item1_10{
+    grid-column-start: 10;
+    grid-column-end: 11;
+    grid-row-start: 8;
+    grid-row-end: 9;
+}
+
+.item1_11{
+    grid-column-start: 11;
+    grid-column-end: 12;
+    grid-row-start: 8;
+    grid-row-end: 9;
+}
+
+.item1_12{
+    grid-column-start: 12;
+    grid-column-end: 13;
+    grid-row-start: 8;
+    grid-row-end: 9;
+}
+
+

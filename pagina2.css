@@ -1,0 +1,104 @@
+/* 
+02 - Seguindo o modelo de utilização de medias query, desenvolva um layout responsivo(de sua escolha) para tamanho mínimo de tela 500 e 700 px com apoio da propriedade grid-template-area; */
+
+
+nav ul li{
+  text-decoration: none;
+  display: inline;    
+}
+
+
+.container {
+    width: var(--containerSize);
+    display: block;
+    margin: 0 auto;
+    padding: var(--gutter);
+  }
+
+  .container {
+    width: 100%;
+    display: block;    
+
+  }
+  
+  .container:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  .row {
+    margin-left: calc(50px - var(--gutter));
+    margin-right: calc(50px - var(--gutter));
+  }
+  
+  .col {
+    float: left;
+    padding-left: var(--gutter);
+    padding-right: var(--gutter);
+  }
+  
+  .col-12 {
+    width: 100%;
+  }
+  
+  .col-6 {
+    width: 50%;
+  }
+
+  .col-1 {
+    width: 8.33333%;
+  }
+  
+  .col-4{
+    width: 33.3333%;
+  }
+
+  .col-3{
+    width: 25%;
+
+  }
+
+  .col-4_1{
+    width: 40%;
+
+  }
+
+
+  .col-8_4{
+    width: 60%;
+
+  }
+
+  .col-8_8{
+    width: 60%;
+
+  }
+
+
+  .col-4_2{
+    width: 40%;
+
+  }
+
+  .col-2{
+    width: 16.66%;
+
+  }
+
+  
+ 
+  /* Visual */
+  * {
+    text-align: center;
+  }
+  
+  .item {
+    
+    background: rgb(219, 45, 219);
+    border: 1px solid rgb(219, 218, 148);
+    padding: 15px;
+    overflow: hidden;
+  }
+  
+
